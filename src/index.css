@@ -1,13 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "CMU Serif";
+    src: url("../public/fonts/cmunrm.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+@font-face {
+  font-family: 'Beautifully Delicious';
+  src: url("../public/fonts/BeautifullyDelicious.otf");
+}
+
+@font-face {
+  font-family: "CMU Serif";
+  src: url("../public/fonts/cmunbi.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "CMU Serif";
+  src: url("../public/fonts/cmunrm.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'CMU Serif', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
