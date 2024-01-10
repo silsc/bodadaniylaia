@@ -18,7 +18,7 @@ const LocationSection = () => {
             <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis interdum erat. Ut dui felis, molestie eget ullamcorper quis, auctor vel turpis. Praesent in urna sem. Sed ullamcorper, neque sed aliquet congue, orci odio sollicitudin enim, at dapibus ligula eros ac leo. Sed id mauris est. Donec sollicitudin lacinia tortor. Aliquam volutpat tincidunt orci. Nullam nibh sem, pharetra eu tincidunt sed, dignissim in tortor.</p>
           </div>
         </div>
-        <iframe className="sm:w-full w-32 basis-6/12 " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48086.39684067673!2d1.1973839706532439!3d41.12579746132925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a3fcdbd3ddf159%3A0x920569a71387a3b2!2sTarragona%2C%20Espa%C3%B1a!5e0!3m2!1ses!2sjp!4v1704758596757!5m2!1ses!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe title="locationMap" className="sm:w-full w-32 basis-6/12 " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48086.39684067673!2d1.1973839706532439!3d41.12579746132925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a3fcdbd3ddf159%3A0x920569a71387a3b2!2sTarragona%2C%20Espa%C3%B1a!5e0!3m2!1ses!2sjp!4v1704758596757!5m2!1ses!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </section>
   );

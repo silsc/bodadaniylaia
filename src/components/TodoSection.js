@@ -53,7 +53,7 @@ const TodoSection = () => {
           </div>
           <p className='mb-5'>Información sobre hoteles, parking y restaurantes</p>
         </div>
-        <iframe className="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48086.39684067673!2d1.1973839706532439!3d41.12579746132925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a3fcdbd3ddf159%3A0x920569a71387a3b2!2sTarragona%2C%20Espa%C3%B1a!5e0!3m2!1ses!2sjp!4v1704758596757!5m2!1ses!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe title="recommendationsMap" className="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48086.39684067673!2d1.1973839706532439!3d41.12579746132925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a3fcdbd3ddf159%3A0x920569a71387a3b2!2sTarragona%2C%20Espa%C3%B1a!5e0!3m2!1ses!2sjp!4v1704758596757!5m2!1ses!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
   );
 }

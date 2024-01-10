@@ -14,7 +14,7 @@ const AttendanceSection = () => {
         <h3 className='text-center sm:text-6xl text-5xl font-sans mb-2'>Nuestro número de cuenta</h3>
         <p className='text-center italic'>IBAN XXXXXXXXXXXXXX</p>
       </div>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSevtross5JByqxLTtFysS0tmXQr1gl1LkQX1S4jJHJ61g0rBA/viewform?embedded=true" width="100%" height="1099" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <iframe title="form" src="https://docs.google.com/forms/d/e/1FAIpQLSevtross5JByqxLTtFysS0tmXQr1gl1LkQX1S4jJHJ61g0rBA/viewform?embedded=true" width="100%" height="1099" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
     </section>
   );
