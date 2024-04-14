@@ -10,22 +10,21 @@ import TodoSection from '../components/TodoSection'
 import PhotosSection from '../components/PhotosSection'
 import ContactSection from '../components/ContactSection'
 import Footer from '../components/Footer'
-
+import transition from '../transition';
 
 const HomePage = () => {
   return (
     <div className='relative'>
-      <Navbar/>
       <Hero/>
       <DateSection/>
       <StorySection/>
       <LocationSection/>
       <TimelineSection/>
-      <DresscodeSection/>
       <TodoSection/>
       <PhotosSection/>
       <ContactSection/>
       <Footer/>
+      
     </div>
   );
 }

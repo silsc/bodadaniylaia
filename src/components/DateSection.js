@@ -7,7 +7,7 @@ const DateSection = () => {
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
 
-  const deadline = "September, 14, 2024";
+  const deadline = "September, 14, 2024, 18:00:00 ";
 
   const getTime = () => {
     const time = Date.parse(deadline) - Date.now();
@@ -27,14 +27,14 @@ const DateSection = () => {
 
   return (
     <section className='max-w-7xl m-auto px-5'>
-      <div className='flex sm:justify-center justify-between border-y-[1px] mt-5 pt-8 pb-12'>
-        <div className='relative basis-1/4 sm:pl-0 pl-2'>
+      <div className='flex md:justify-center justify-between border-y-[1px] mt-5 pt-8 pb-12'>
+        <div className='relative basis-1/4 md:pl-0 pl-2'>
           <h2 className='font-sans absolute top-0 text-5xl '>Reserva</h2>
           <h2 className='font-sans absolute top-8 left-5 text-5xl'>la</h2>
           <h2 className='font-sans absolute top-16 left-8 text-5xl'>fecha</h2>
         </div>
-        <div className='sm:pr-0 pr-2'>
-          <div className='timer flex basis-1/2 italic mt-5 mb-5 pt-8 sm:text-base text-xs'>
+        <div className='md:pr-0 pr-2'>
+          <div className='timer flex basis-1/2 italic mt-5 mb-5 pt-8 md:text-base text-xs'>
             <div className='flex mr-2'>
               <p className='mr-1'>{days}</p>
               <p>días</p>
@@ -54,6 +54,7 @@ const DateSection = () => {
 
           </div>
           <p className='text-right text-xs'>14 septiembre 2024</p>
+          <p className='text-right text-xs'> Hora de apertura 18:00h</p>
 
         </div>
       </div>

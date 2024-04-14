@@ -1,59 +1,121 @@
 import React from 'react';
+import heroImg from '../assets/images/hero.jpg';
+import infoTgn1 from '../assets/images/infotgn-1.jpg';
+import infoTgn2 from '../assets/images/infotgn-2.jpg';
+import infoTgn3 from '../assets/images/infotgn-3.jpg';
+import infoTgn4 from '../assets/images/infotgn-4.jpg';
+import infoTgn5 from '../assets/images/infotgn-5.jpg';
 
 const TodoSection = () => {
   return (
-    <section id="timelineSection" className='max-w-7xl m-auto px-5 py-8'>
-        <h2 className='font-sans sm:text-8xl text-5xl mb-5'>Qué hacer en Tarragona</h2>
-        <div className='mx-3'>
-          <p className='mb-5'>Cosas imprescindibles que hacer en Tarragona</p>
-          <div className='grid grid-cols-3 mb-6'>
-            <div className='flex content-center'>
-              <svg className="self-center mr-2" xmlns="http://www.w3.org/2000/svg" width="9" height="10" viewBox="0 0 9 10" fill="none">
-                <g clip-path="url(#clip0_59_51)">
-                <circle cx="4.5" cy="5" r="4.5" fill="#F6D1C9"/>
-                <path d="M6.3645 2.8441C6.27841 2.79619 6.18372 2.76573 6.08584 2.75444C5.98797 2.74316 5.88883 2.75128 5.7941 2.77834C5.69937 2.80541 5.6109 2.85088 5.53375 2.91215C5.45661 2.97343 5.3923 3.04932 5.3445 3.13547L3.95212 5.64122L3.15525 4.84435C3.08606 4.77271 3.00331 4.71558 2.9118 4.67627C2.8203 4.63696 2.72189 4.61627 2.6223 4.61541C2.52272 4.61454 2.42396 4.63352 2.33178 4.67123C2.23961 4.70894 2.15587 4.76463 2.08545 4.83505C2.01503 4.90547 1.95934 4.98921 1.92163 5.08138C1.88392 5.17355 1.86495 5.27231 1.86581 5.3719C1.86668 5.47148 1.88737 5.5699 1.92667 5.6614C1.96598 5.7529 2.02312 5.83566 2.09475 5.90484L3.59475 7.40484C3.7365 7.54697 3.92775 7.62497 4.125 7.62497L4.22887 7.61747C4.34383 7.60139 4.45349 7.55884 4.54921 7.49319C4.64493 7.42753 4.7241 7.34055 4.7805 7.2391L6.6555 3.86409C6.70337 3.77801 6.73382 3.68335 6.7451 3.5855C6.75638 3.48765 6.74828 3.38854 6.72126 3.29382C6.69424 3.19911 6.64882 3.11064 6.58761 3.03348C6.5264 2.95631 6.45058 2.89196 6.3645 2.8441Z" fill="white"/>
-                </g>
+    <section id="toDoSection" className='max-w-7xl m-auto pb-8 px-5'>
+      <div className='md:px-8 px-5'>
+        <h2 className='font-sans md:text-8xl text-7xl mb-5'>Información Adicional</h2>
+        <div className='mb-5'>
+          <h3 className='font-bold mb-3 text-pink text-lg	'>PARKING Y ALOJAMIENTO</h3>
+          <p className='text-justify'>Justo enfrente de la Casa Joan Miret, en la Rambla Nova s/n, hay un parking (Aparcament del Balcó del Mediterrani), el cual se puede reservar a un precio de 14€ por día (18€/día sin reserva) llamando al 96 128 06 35.<br></br><br></br>
+          Si no os importa caminar un poco más u os pilla más cerca de vuestro alojamiento, los <strong>parkings municipales</strong> tienen una tarifa diaria de 5,95€, aunque no admiten reserva previa. El más cercano al evento es el Parking Corsini (Plaça de Corsini) que está a 450m, unos 7 minutos a pie. Como podría estar lleno, al ser el parking del mercado, nuestra siguiente recomendación sería el Parking Saavedra (C/Josepa Massanès, 4), a 750m o 10min.<br></br><br></br>
+          El resto de parkings municipales, por orden de cercanía, son:</p>
+          <div className='flex content-center'>
+            <svg width="12" height="12" className="self-center mr-2" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_135_479)">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M0 3C0 2.20435 0.31607 1.44129 0.87868 0.87868C1.44129 0.31607 2.20435 0 3 0L9 0C9.79565 0 10.5587 0.31607 11.1213 0.87868C11.6839 1.44129 12 2.20435 12 3V9C12 9.79565 11.6839 10.5587 11.1213 11.1213C10.5587 11.6839 9.79565 12 9 12H3C2.20435 12 1.44129 11.6839 0.87868 11.1213C0.31607 10.5587 0 9.79565 0 9L0 3ZM4.46571 2.67171C4.39529 2.6716 4.32554 2.68538 4.26044 2.71225C4.19535 2.73912 4.13619 2.77856 4.08635 2.82832C4.03652 2.87807 3.99698 2.93717 3.97 3.00222C3.94303 3.06727 3.92914 3.13701 3.92914 3.20743V9.23143C3.92914 9.37351 3.98558 9.50977 4.08605 9.61024C4.18652 9.7107 4.32278 9.76714 4.46486 9.76714C4.60694 9.76714 4.7432 9.7107 4.84366 9.61024C4.94413 9.50977 5.00057 9.37351 5.00057 9.23143V7.25657H7.19486C7.43405 7.25657 7.6709 7.20946 7.89189 7.11792C8.11287 7.02639 8.31367 6.89222 8.4828 6.72309C8.65194 6.55395 8.7861 6.35316 8.87764 6.13217C8.96917 5.91119 9.01629 5.67434 9.01629 5.43514V4.49314C9.01629 4.25395 8.96917 4.0171 8.87764 3.79611C8.7861 3.57513 8.65194 3.37433 8.4828 3.2052C8.31367 3.03606 8.11287 2.9019 7.89189 2.81036C7.6709 2.71883 7.43405 2.67171 7.19486 2.67171H4.46571ZM7.19486 6.186H5.00057V3.74314H7.19486C7.60886 3.74314 7.94486 4.07914 7.94486 4.49314V5.436C7.94463 5.63476 7.86551 5.82531 7.72488 5.96578C7.58426 6.10624 7.39362 6.186 7.19486 6.186Z" fill="#E68B7B"/>
+              </g>
                 <defs>
-                <clipPath id="clip0_59_51">
-                <rect width="9" height="9" fill="white" transform="translate(0 0.5)"/>
+                <clipPath id="clip0_135_479">
+                <rect width="12" height="12" fill="white"/>
                 </clipPath>
                 </defs>
-              </svg>
-              <p className='text-sm self-center'>Ir a al balcón</p>
+            </svg>
+            <p className='self-center'>Parking Avinguda Catalunya</p>
+          </div>
+          <div className='flex content-center'>
+            <svg width="12" height="12" className="self-center mr-2" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_135_479)">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M0 3C0 2.20435 0.31607 1.44129 0.87868 0.87868C1.44129 0.31607 2.20435 0 3 0L9 0C9.79565 0 10.5587 0.31607 11.1213 0.87868C11.6839 1.44129 12 2.20435 12 3V9C12 9.79565 11.6839 10.5587 11.1213 11.1213C10.5587 11.6839 9.79565 12 9 12H3C2.20435 12 1.44129 11.6839 0.87868 11.1213C0.31607 10.5587 0 9.79565 0 9L0 3ZM4.46571 2.67171C4.39529 2.6716 4.32554 2.68538 4.26044 2.71225C4.19535 2.73912 4.13619 2.77856 4.08635 2.82832C4.03652 2.87807 3.99698 2.93717 3.97 3.00222C3.94303 3.06727 3.92914 3.13701 3.92914 3.20743V9.23143C3.92914 9.37351 3.98558 9.50977 4.08605 9.61024C4.18652 9.7107 4.32278 9.76714 4.46486 9.76714C4.60694 9.76714 4.7432 9.7107 4.84366 9.61024C4.94413 9.50977 5.00057 9.37351 5.00057 9.23143V7.25657H7.19486C7.43405 7.25657 7.6709 7.20946 7.89189 7.11792C8.11287 7.02639 8.31367 6.89222 8.4828 6.72309C8.65194 6.55395 8.7861 6.35316 8.87764 6.13217C8.96917 5.91119 9.01629 5.67434 9.01629 5.43514V4.49314C9.01629 4.25395 8.96917 4.0171 8.87764 3.79611C8.7861 3.57513 8.65194 3.37433 8.4828 3.2052C8.31367 3.03606 8.11287 2.9019 7.89189 2.81036C7.6709 2.71883 7.43405 2.67171 7.19486 2.67171H4.46571ZM7.19486 6.186H5.00057V3.74314H7.19486C7.60886 3.74314 7.94486 4.07914 7.94486 4.49314V5.436C7.94463 5.63476 7.86551 5.82531 7.72488 5.96578C7.58426 6.10624 7.39362 6.186 7.19486 6.186Z" fill="#E68B7B"/>
+              </g>
+                <defs>
+                <clipPath id="clip0_135_479">
+                <rect width="12" height="12" fill="white"/>
+                </clipPath>
+                </defs>
+            </svg>
+            <p className='self-center'>Parking Imperial Tarraco</p>
+          </div>
+          <div className='flex content-center'>
+            <svg width="12" height="12" className="self-center mr-2" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_135_479)">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M0 3C0 2.20435 0.31607 1.44129 0.87868 0.87868C1.44129 0.31607 2.20435 0 3 0L9 0C9.79565 0 10.5587 0.31607 11.1213 0.87868C11.6839 1.44129 12 2.20435 12 3V9C12 9.79565 11.6839 10.5587 11.1213 11.1213C10.5587 11.6839 9.79565 12 9 12H3C2.20435 12 1.44129 11.6839 0.87868 11.1213C0.31607 10.5587 0 9.79565 0 9L0 3ZM4.46571 2.67171C4.39529 2.6716 4.32554 2.68538 4.26044 2.71225C4.19535 2.73912 4.13619 2.77856 4.08635 2.82832C4.03652 2.87807 3.99698 2.93717 3.97 3.00222C3.94303 3.06727 3.92914 3.13701 3.92914 3.20743V9.23143C3.92914 9.37351 3.98558 9.50977 4.08605 9.61024C4.18652 9.7107 4.32278 9.76714 4.46486 9.76714C4.60694 9.76714 4.7432 9.7107 4.84366 9.61024C4.94413 9.50977 5.00057 9.37351 5.00057 9.23143V7.25657H7.19486C7.43405 7.25657 7.6709 7.20946 7.89189 7.11792C8.11287 7.02639 8.31367 6.89222 8.4828 6.72309C8.65194 6.55395 8.7861 6.35316 8.87764 6.13217C8.96917 5.91119 9.01629 5.67434 9.01629 5.43514V4.49314C9.01629 4.25395 8.96917 4.0171 8.87764 3.79611C8.7861 3.57513 8.65194 3.37433 8.4828 3.2052C8.31367 3.03606 8.11287 2.9019 7.89189 2.81036C7.6709 2.71883 7.43405 2.67171 7.19486 2.67171H4.46571ZM7.19486 6.186H5.00057V3.74314H7.19486C7.60886 3.74314 7.94486 4.07914 7.94486 4.49314V5.436C7.94463 5.63476 7.86551 5.82531 7.72488 5.96578C7.58426 6.10624 7.39362 6.186 7.19486 6.186Z" fill="#E68B7B"/>
+              </g>
+                <defs>
+                <clipPath id="clip0_135_479">
+                <rect width="12" height="12" fill="white"/>
+                </clipPath>
+                </defs>
+            </svg>
+            <p className='self-center'>Parking Rambla Companys</p>
+          </div>
+          <div className='flex content-center'>
+            <svg width="12" height="12" className="self-center mr-2" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_135_479)">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M0 3C0 2.20435 0.31607 1.44129 0.87868 0.87868C1.44129 0.31607 2.20435 0 3 0L9 0C9.79565 0 10.5587 0.31607 11.1213 0.87868C11.6839 1.44129 12 2.20435 12 3V9C12 9.79565 11.6839 10.5587 11.1213 11.1213C10.5587 11.6839 9.79565 12 9 12H3C2.20435 12 1.44129 11.6839 0.87868 11.1213C0.31607 10.5587 0 9.79565 0 9L0 3ZM4.46571 2.67171C4.39529 2.6716 4.32554 2.68538 4.26044 2.71225C4.19535 2.73912 4.13619 2.77856 4.08635 2.82832C4.03652 2.87807 3.99698 2.93717 3.97 3.00222C3.94303 3.06727 3.92914 3.13701 3.92914 3.20743V9.23143C3.92914 9.37351 3.98558 9.50977 4.08605 9.61024C4.18652 9.7107 4.32278 9.76714 4.46486 9.76714C4.60694 9.76714 4.7432 9.7107 4.84366 9.61024C4.94413 9.50977 5.00057 9.37351 5.00057 9.23143V7.25657H7.19486C7.43405 7.25657 7.6709 7.20946 7.89189 7.11792C8.11287 7.02639 8.31367 6.89222 8.4828 6.72309C8.65194 6.55395 8.7861 6.35316 8.87764 6.13217C8.96917 5.91119 9.01629 5.67434 9.01629 5.43514V4.49314C9.01629 4.25395 8.96917 4.0171 8.87764 3.79611C8.7861 3.57513 8.65194 3.37433 8.4828 3.2052C8.31367 3.03606 8.11287 2.9019 7.89189 2.81036C7.6709 2.71883 7.43405 2.67171 7.19486 2.67171H4.46571ZM7.19486 6.186H5.00057V3.74314H7.19486C7.60886 3.74314 7.94486 4.07914 7.94486 4.49314V5.436C7.94463 5.63476 7.86551 5.82531 7.72488 5.96578C7.58426 6.10624 7.39362 6.186 7.19486 6.186Z" fill="#E68B7B"/>
+              </g>
+                <defs>
+                <clipPath id="clip0_135_479">
+                <rect width="12" height="12" fill="white"/>
+                </clipPath>
+                </defs>
+            </svg>
+            <p className='self-center'>Parking Francesc Bastos</p>
+          </div>
+          <div className='flex content-center'>
+            <svg width="12" height="12" className="self-center mr-2" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_135_479)">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M0 3C0 2.20435 0.31607 1.44129 0.87868 0.87868C1.44129 0.31607 2.20435 0 3 0L9 0C9.79565 0 10.5587 0.31607 11.1213 0.87868C11.6839 1.44129 12 2.20435 12 3V9C12 9.79565 11.6839 10.5587 11.1213 11.1213C10.5587 11.6839 9.79565 12 9 12H3C2.20435 12 1.44129 11.6839 0.87868 11.1213C0.31607 10.5587 0 9.79565 0 9L0 3ZM4.46571 2.67171C4.39529 2.6716 4.32554 2.68538 4.26044 2.71225C4.19535 2.73912 4.13619 2.77856 4.08635 2.82832C4.03652 2.87807 3.99698 2.93717 3.97 3.00222C3.94303 3.06727 3.92914 3.13701 3.92914 3.20743V9.23143C3.92914 9.37351 3.98558 9.50977 4.08605 9.61024C4.18652 9.7107 4.32278 9.76714 4.46486 9.76714C4.60694 9.76714 4.7432 9.7107 4.84366 9.61024C4.94413 9.50977 5.00057 9.37351 5.00057 9.23143V7.25657H7.19486C7.43405 7.25657 7.6709 7.20946 7.89189 7.11792C8.11287 7.02639 8.31367 6.89222 8.4828 6.72309C8.65194 6.55395 8.7861 6.35316 8.87764 6.13217C8.96917 5.91119 9.01629 5.67434 9.01629 5.43514V4.49314C9.01629 4.25395 8.96917 4.0171 8.87764 3.79611C8.7861 3.57513 8.65194 3.37433 8.4828 3.2052C8.31367 3.03606 8.11287 2.9019 7.89189 2.81036C7.6709 2.71883 7.43405 2.67171 7.19486 2.67171H4.46571ZM7.19486 6.186H5.00057V3.74314H7.19486C7.60886 3.74314 7.94486 4.07914 7.94486 4.49314V5.436C7.94463 5.63476 7.86551 5.82531 7.72488 5.96578C7.58426 6.10624 7.39362 6.186 7.19486 6.186Z" fill="#E68B7B"/>
+              </g>
+                <defs>
+                <clipPath id="clip0_135_479">
+                <rect width="12" height="12" fill="white"/>
+                </clipPath>
+                </defs>
+            </svg>
+            <p className='self-center'>Parking Joan XXIII</p>
+          </div>
+          
+        </div>
+        <div className=''>
+          <h3 className='font-bold mb-3 text-pink text-right text-lg'>INFORMACIÓN TARRAGONA</h3>
+          <p className='text-right mb-3 '>Algunas ideas para hacer en Tarragona</p>
+          <div className='grid md:grid-cols-2 grid-cols-1 gap-4 '>
+
+            <div className='relative md:p-10 p-6 bg-cover bg-no-repeat bg-center bg-[image:var(--image-url)]' style={{'--image-url': `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(${infoTgn1})`}}>
+              <h4 className='font-serif italic text-white text-lg'>Tocar Ferro</h4>
+              <p className='text-white font-bold'>El paseo más típico de Tarragona. Cerca del lugar de la ceremonia en la Rambla, no podéis perderos las espectaculares vistas desde el Balcón del Mediterráneo y aprovechar para atraer a la suerte tocando la barandilla de hierro.</p>
             </div>
-            <div className='flex content-center'>
-              <svg className="self-center mr-2" xmlns="http://www.w3.org/2000/svg" width="9" height="10" viewBox="0 0 9 10" fill="none">
-                <g clip-path="url(#clip0_59_51)">
-                <circle cx="4.5" cy="5" r="4.5" fill="#F6D1C9"/>
-                <path d="M6.3645 2.8441C6.27841 2.79619 6.18372 2.76573 6.08584 2.75444C5.98797 2.74316 5.88883 2.75128 5.7941 2.77834C5.69937 2.80541 5.6109 2.85088 5.53375 2.91215C5.45661 2.97343 5.3923 3.04932 5.3445 3.13547L3.95212 5.64122L3.15525 4.84435C3.08606 4.77271 3.00331 4.71558 2.9118 4.67627C2.8203 4.63696 2.72189 4.61627 2.6223 4.61541C2.52272 4.61454 2.42396 4.63352 2.33178 4.67123C2.23961 4.70894 2.15587 4.76463 2.08545 4.83505C2.01503 4.90547 1.95934 4.98921 1.92163 5.08138C1.88392 5.17355 1.86495 5.27231 1.86581 5.3719C1.86668 5.47148 1.88737 5.5699 1.92667 5.6614C1.96598 5.7529 2.02312 5.83566 2.09475 5.90484L3.59475 7.40484C3.7365 7.54697 3.92775 7.62497 4.125 7.62497L4.22887 7.61747C4.34383 7.60139 4.45349 7.55884 4.54921 7.49319C4.64493 7.42753 4.7241 7.34055 4.7805 7.2391L6.6555 3.86409C6.70337 3.77801 6.73382 3.68335 6.7451 3.5855C6.75638 3.48765 6.74828 3.38854 6.72126 3.29382C6.69424 3.19911 6.64882 3.11064 6.58761 3.03348C6.5264 2.95631 6.45058 2.89196 6.3645 2.8441Z" fill="white"/>
-                </g>
-                <defs>
-                <clipPath id="clip0_59_51">
-                <rect width="9" height="9" fill="white" transform="translate(0 0.5)"/>
-                </clipPath>
-                </defs>
-              </svg>
-              <p className='text-sm self-center'>Ir a al balcón</p>
-            </div>
-            <div className='flex content-center'>
-              <svg className="self-center mr-2" xmlns="http://www.w3.org/2000/svg" width="9" height="10" viewBox="0 0 9 10" fill="none">
-                <g clip-path="url(#clip0_59_51)">
-                <circle cx="4.5" cy="5" r="4.5" fill="#F6D1C9"/>
-                <path d="M6.3645 2.8441C6.27841 2.79619 6.18372 2.76573 6.08584 2.75444C5.98797 2.74316 5.88883 2.75128 5.7941 2.77834C5.69937 2.80541 5.6109 2.85088 5.53375 2.91215C5.45661 2.97343 5.3923 3.04932 5.3445 3.13547L3.95212 5.64122L3.15525 4.84435C3.08606 4.77271 3.00331 4.71558 2.9118 4.67627C2.8203 4.63696 2.72189 4.61627 2.6223 4.61541C2.52272 4.61454 2.42396 4.63352 2.33178 4.67123C2.23961 4.70894 2.15587 4.76463 2.08545 4.83505C2.01503 4.90547 1.95934 4.98921 1.92163 5.08138C1.88392 5.17355 1.86495 5.27231 1.86581 5.3719C1.86668 5.47148 1.88737 5.5699 1.92667 5.6614C1.96598 5.7529 2.02312 5.83566 2.09475 5.90484L3.59475 7.40484C3.7365 7.54697 3.92775 7.62497 4.125 7.62497L4.22887 7.61747C4.34383 7.60139 4.45349 7.55884 4.54921 7.49319C4.64493 7.42753 4.7241 7.34055 4.7805 7.2391L6.6555 3.86409C6.70337 3.77801 6.73382 3.68335 6.7451 3.5855C6.75638 3.48765 6.74828 3.38854 6.72126 3.29382C6.69424 3.19911 6.64882 3.11064 6.58761 3.03348C6.5264 2.95631 6.45058 2.89196 6.3645 2.8441Z" fill="white"/>
-                </g>
-                <defs>
-                <clipPath id="clip0_59_51">
-                <rect width="9" height="9" fill="white" transform="translate(0 0.5)"/>
-                </clipPath>
-                </defs>
-              </svg>
-              <p className='text-sm self-center'>Ir a al balcón</p>
+            
+            <div className='relative md:p-10 p-6 bg-cover bg-no-repeat bg-center bg-[image:var(--image-url)]' style={{'--image-url': `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(${infoTgn2})`}}>
+              <h4 className='font-serif italic text-white text-lg'>Santa Tecla gloriosa, mare dels tarragonins</h4>
+              <p className='text-white'>La boda será el primer finde de las fiestas patronales y la ciudad estará animada. Aprovechad para ver Castells, probar la Mamadeta y bailar el Amparito Roca.<br></br>En cuanto esté disponible, subiremos el programa de las fiestas</p>
             </div>
 
+            <div className='relative md:p-10 p-6 bg-cover bg-no-repeat bg-center bg-[image:var(--image-url)]' style={{'--image-url': `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(${infoTgn3})`}}>
+              <h4 className='font-serif italic text-white text-lg'>Viure la Part Alta</h4>
+              <p className='text-white'>Visitar el casco antiguo: vermutear en una de sus plazas (Font, Rei, Forum), visitar la Catedral, bajar el Carrer Major, etc</p>
+            </div>
+
+            <div className='relative md:p-10 p-6 bg-cover bg-no-repeat bg-center bg-[image:var(--image-url)]' style={{'--image-url': `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(${infoTgn4})`}}>
+              <h4 className='font-serif italic text-white text-lg'>Tarraco Romana</h4>
+              <p className='text-white'>Capital de Hispania, en Tarragona hay muchos monumentos que la historia nos ha dejado. El circo romano, el anfiteatro y las murallas son nuestros preferidos.</p>
+            </div>
+
+            <div className='relative md:p-10 p-6 bg-cover bg-no-repeat bg-center bg-[image:var(--image-url)]' style={{'--image-url': `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(${infoTgn5})`}}>
+              <h4 className='font-serif italic text-white text-lg'>Costa Daurada</h4>
+              <p className='text-white'>Para los que tengáis más días y mono de mar, os aconsejamos disfrutar del Mediterráneo y sus playas de arena fina y dorada. Recomendamos La Arrabassada, La Savinosa y la Platja Llarga.</p>
+            </div>
           </div>
-          <p className='mb-5'>Información sobre hoteles, parking y restaurantes</p>
+          
         </div>
-        <iframe title="recommendationsMap" className="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48086.39684067673!2d1.1973839706532439!3d41.12579746132925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a3fcdbd3ddf159%3A0x920569a71387a3b2!2sTarragona%2C%20Espa%C3%B1a!5e0!3m2!1ses!2sjp!4v1704758596757!5m2!1ses!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </section>
   );
 }

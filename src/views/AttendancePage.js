@@ -3,11 +3,12 @@ import Navbar from'../components/Navbar'
 import Hero from'../components/Hero'
 import AttendanceSection from'../components/AttendanceSection'
 import Footer from '../components/Footer'
+import { motion } from "framer-motion";
+import transition from '../transition';
 
 const AttendancePage = () => {
   return (
     <> 
-      <Navbar/>
       <Hero/>
       <AttendanceSection/>
       <Footer/>
@@ -15,4 +16,4 @@ const AttendancePage = () => {
   );
 }
 
-export default AttendancePage;
+export default transition(AttendancePage);
