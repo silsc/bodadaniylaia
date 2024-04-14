@@ -3,7 +3,7 @@ import React from 'react';
 // import heroImg1 from '../assets/images/hero1.jpg'
 // import heroImg2 from '../assets/images/hero2.jpg'
 // import heroImg3 from '../assets/images/hero3.jpg'
-// import heroImg4 from '../assets/images/hero4.jpg'
+import heroImg4 from '../assets/images/hero4.jpg'
 import heroLogo from '../assets/images/logoHero.png'
 
 const Hero = () => {
