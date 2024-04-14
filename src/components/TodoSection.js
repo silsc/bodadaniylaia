@@ -1,5 +1,4 @@
 import React from 'react';
-import heroImg from '../assets/images/hero.jpg';
 import infoTgn1 from '../assets/images/infotgn-1.jpg';
 import infoTgn2 from '../assets/images/infotgn-2.jpg';
 import infoTgn3 from '../assets/images/infotgn-3.jpg';
