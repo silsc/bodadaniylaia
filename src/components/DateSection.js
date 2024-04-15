@@ -34,7 +34,7 @@ const DateSection = () => {
           <h2 className='font-sans absolute top-16 left-8 text-5xl'>fecha</h2>
         </div>
         <div className='md:pr-0 pr-2'>
-          <div className='timer flex basis-1/2 italic mt-5 mb-5 pt-8 md:text-base text-xs'>
+          <div className='timer flex basis-1/2 italic mt-5 mb-5 md:text-base text-xs'>
             <div className='flex mr-2'>
               <p className='mr-1'>{days}</p>
               <p>días</p>
@@ -53,8 +53,8 @@ const DateSection = () => {
             </div>
 
           </div>
-          <p className='text-right text-xs'>14 septiembre 2024</p>
-          <p className='text-right text-xs'> Hora de apertura 18:00h</p>
+          <p className='text-right text-lg'>14 septiembre 2024</p>
+          <p className='text-right text-sm'> Hora de inicio 18:00h</p>
 
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImg from '../assets/images/hero.jpg'
+import storyImg from '../assets/images/story.jpg'
 
 
 const StorySection = () => {
@@ -22,7 +22,7 @@ const StorySection = () => {
 
             
             </p>
-            <div className='h-44 bg-[image:var(--image-url)] bg-cover bg-no-repeat bg-center w-100 ' style={{'--image-url': `url(${heroImg})`}}></div>
+            <div className='md:h-96 h-52 bg-[image:var(--image-url)] bg-cover bg-no-repeat bg-center w-100 ' style={{'--image-url': `url(${storyImg})`}}></div>
           </div>
         </div>
       </div>

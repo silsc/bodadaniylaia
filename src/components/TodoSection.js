@@ -10,8 +10,8 @@ const TodoSection = () => {
     <section id="toDoSection" className='max-w-7xl m-auto pb-8 px-5'>
       <div className='md:px-8 px-5'>
         <h2 className='font-sans md:text-8xl text-7xl mb-5'>Información Adicional</h2>
-        <div className='mb-5'>
-          <h3 className='font-bold mb-3 text-pink text-lg	'>PARKING Y ALOJAMIENTO</h3>
+        <div className='mb-8'>
+          <h3 className='font-bold mb-3 text-orange text-lg	'>PARKING</h3>
           <p className='text-justify'>Justo enfrente de la Casa Joan Miret, en la Rambla Nova s/n, hay un parking (Aparcament del Balcó del Mediterrani), el cual se puede reservar a un precio de 14€ por día (18€/día sin reserva) llamando al 96 128 06 35.<br></br><br></br>
           Si no os importa caminar un poco más u os pilla más cerca de vuestro alojamiento, los <strong>parkings municipales</strong> tienen una tarifa diaria de 5,95€, aunque no admiten reserva previa. El más cercano al evento es el Parking Corsini (Plaça de Corsini) que está a 450m, unos 7 minutos a pie. Como podría estar lleno, al ser el parking del mercado, nuestra siguiente recomendación sería el Parking Saavedra (C/Josepa Massanès, 4), a 750m o 10min.<br></br><br></br>
           El resto de parkings municipales, por orden de cercanía, son:</p>
@@ -82,9 +82,36 @@ const TodoSection = () => {
           </div>
           
         </div>
+        <div className='mb-8'>
+          <h3 className='font-bold mb-3 text-orange text-lg'>ALOJAMIENTO</h3>
+          <p className='text-justify'>Para facilitar la asistencia, como muchos venís de fuera, hemos hecho una lista de alojamientos recomendados para diferentes gustos y bolsillos.<br></br><br></br>
+          En nuestra opinión, la mejor opción calidad-precio y ubicación es <strong>Andreas Apartments</strong> (Rambla Nova, 71) que dispone de apartamentos con capacidad para 2, 3 y 4 personas a partir de 80€/noche. Si crees que es una buena opción para tu estancia, contacta con alguno de nosotros dos lo antes posible, ya que estamos organizando una reserva de grupo.<br></br><br></br>
+          Para aquellos que prefiráis un hotel para vuestro alojamiento, el  <strong>H10 Imperial Tarraco</strong> (Rambla Vella, 2) es un opción lujosa con excelentes vistas al Mediterraneo y también muy cerca del lugar de la celebración.
+          <br></br><br></br>
+          Otras alternativas de alojamiento que consideramos que pueden ser buenas opciones son:</p>
+          <div className='flex content-center'>
+            <svg className="self-center mr-2" width="22" height="15" viewBox="0 0 38 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10.6666 13.6667C13.4333 13.6667 15.6666 11.4333 15.6666 8.66667C15.6666 5.9 13.4333 3.66667 10.6666 3.66667C7.89996 3.66667 5.66663 5.9 5.66663 8.66667C5.66663 11.4333 7.89996 13.6667 10.6666 13.6667ZM30.6666 3.66667H20.6666C18.8333 3.66667 17.3333 5.16667 17.3333 7V15.3333H3.99996V2C3.99996 1.08334 3.24996 0.333336 2.33329 0.333336C1.41663 0.333336 0.666626 1.08334 0.666626 2V23.6667C0.666626 24.5833 1.41663 25.3333 2.33329 25.3333C3.24996 25.3333 3.99996 24.5833 3.99996 23.6667V20.3333H34V23.6667C34 24.5833 34.75 25.3333 35.6666 25.3333C36.5833 25.3333 37.3333 24.5833 37.3333 23.6667V10.3333C37.3333 6.65 34.35 3.66667 30.6666 3.66667Z" fill="#E68B7B"/>
+            </svg>
+            <p className='self-center'>Hotel Lauria (Rambla Nova, 20)</p>
+          </div>
+          <div className='flex content-center'>
+            <svg className="self-center mr-2" width="22" height="15" viewBox="0 0 38 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10.6666 13.6667C13.4333 13.6667 15.6666 11.4333 15.6666 8.66667C15.6666 5.9 13.4333 3.66667 10.6666 3.66667C7.89996 3.66667 5.66663 5.9 5.66663 8.66667C5.66663 11.4333 7.89996 13.6667 10.6666 13.6667ZM30.6666 3.66667H20.6666C18.8333 3.66667 17.3333 5.16667 17.3333 7V15.3333H3.99996V2C3.99996 1.08334 3.24996 0.333336 2.33329 0.333336C1.41663 0.333336 0.666626 1.08334 0.666626 2V23.6667C0.666626 24.5833 1.41663 25.3333 2.33329 25.3333C3.24996 25.3333 3.99996 24.5833 3.99996 23.6667V20.3333H34V23.6667C34 24.5833 34.75 25.3333 35.6666 25.3333C36.5833 25.3333 37.3333 24.5833 37.3333 23.6667V10.3333C37.3333 6.65 34.35 3.66667 30.6666 3.66667Z" fill="#E68B7B"/>
+            </svg>
+            <p className='self-center'>B&B Hotel Tarragona Centro Urbis (Pl. de Corsini, 10)</p>
+          </div>
+          <div className='flex content-center'>
+            <svg className="self-center mr-2" width="22" height="15" viewBox="0 0 38 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10.6666 13.6667C13.4333 13.6667 15.6666 11.4333 15.6666 8.66667C15.6666 5.9 13.4333 3.66667 10.6666 3.66667C7.89996 3.66667 5.66663 5.9 5.66663 8.66667C5.66663 11.4333 7.89996 13.6667 10.6666 13.6667ZM30.6666 3.66667H20.6666C18.8333 3.66667 17.3333 5.16667 17.3333 7V15.3333H3.99996V2C3.99996 1.08334 3.24996 0.333336 2.33329 0.333336C1.41663 0.333336 0.666626 1.08334 0.666626 2V23.6667C0.666626 24.5833 1.41663 25.3333 2.33329 25.3333C3.24996 25.3333 3.99996 24.5833 3.99996 23.6667V20.3333H34V23.6667C34 24.5833 34.75 25.3333 35.6666 25.3333C36.5833 25.3333 37.3333 24.5833 37.3333 23.6667V10.3333C37.3333 6.65 34.35 3.66667 30.6666 3.66667Z" fill="#E68B7B"/>
+            </svg>
+            <p className='self-center'>Hotel Plaça de la Font (Pl. de la Font, 26)</p>
+          </div>
+          
+        </div>
         <div className=''>
-          <h3 className='font-bold mb-3 text-pink text-right text-lg'>INFORMACIÓN TARRAGONA</h3>
-          <p className='text-right mb-3 '>Algunas ideas para hacer en Tarragona</p>
+          <h3 className='font-bold mb-3 text-orange text-lg'>INFORMACIÓN TARRAGONA</h3>
+          <p className='mb-3 '>Algunas ideas para hacer en Tarragona</p>
           <div className='grid md:grid-cols-2 grid-cols-1 gap-4 '>
 
             <div className='relative md:p-10 p-6 bg-cover bg-no-repeat bg-center bg-[image:var(--image-url)]' style={{'--image-url': `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(${infoTgn1})`}}>

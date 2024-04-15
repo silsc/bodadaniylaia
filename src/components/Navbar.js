@@ -21,12 +21,12 @@ const Navbar = () => {
             <NavLink to="/asistencia" className={`text-pink font-bold italic text-sm lg:text-base hover:text-base ease-in duration-300  ${scroll ? "text-white" : ""}`}>Confirma tu asistencia</NavLink>
           </div>
         </div>
-        <div className='flex md:px-2.5 pt-3 justify-between border-t-[1px] border-white text-white'>
-          <HashLink smooth to="/#storySection" className=' hover:text-pink cursor-pointer ease-in duration-300 text-sm/[9px] lg:text-base'>Nuestra historia</HashLink>
-          <HashLink smooth to='/#locationSection' className='hover:text-pink cursor-pointer ease-in duration-300 text-sm/[9px] lg:text-base'>Ubicación</HashLink>
-          <HashLink smooth to='/#timelineSection' className='hover:text-pink cursor-pointer ease-in duration-300 text-sm/[9px] lg:text-base'>Timeline</HashLink>
-          <HashLink smooth to='/#toDoSection'  className='hover:text-pink cursor-pointer ease-in duration-300 text-sm/[9px] lg:text-base'>Más Info</HashLink>
-          <HashLink smooth to='/#photosSection'  className='hover:text-pink cursor-pointer ease-in duration-300 text-sm/[9px] lg:text-base'>Fotos</HashLink>
+        <div className='flex md:px-2.5 pt-3 justify-between border-t-[1px] border-white text-white font-bold'>
+          <HashLink smooth to="/#storySection" className=' hover:text-orange cursor-pointer ease-in duration-300 text-sm/[9px] lg:text-base'>Nuestra historia</HashLink>
+          <HashLink smooth to='/#locationSection' className='hover:text-orange cursor-pointer ease-in duration-300 text-sm/[9px] lg:text-base'>Ubicación</HashLink>
+          <HashLink smooth to='/#timelineSection' className='hover:text-orange cursor-pointer ease-in duration-300 text-sm/[9px] lg:text-base'>Programa</HashLink>
+          <HashLink smooth to='/#toDoSection'  className='hover:text-orange cursor-pointer ease-in duration-300 text-sm/[9px] lg:text-base'>Más Info</HashLink>
+          <HashLink smooth to='/#photosSection'  className='hover:text-orange cursor-pointer ease-in duration-300 text-sm/[9px] lg:text-base'>Fotos</HashLink>
         </div>
       </div>
     </div>
