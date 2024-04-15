@@ -13,11 +13,13 @@
 
 @font-face {
   font-family: 'Beautifully Delicious';
-  src: url("../public/fonts/BeautifullyDelicious.otf");
+  unicode-range: U+000-5FF;
+  src: local('Beautifully Delicious'), url('../public/fonts/BeautifullyDelicious.woff2') format('woff2'), url('../public/fonts/BeautifullyDelicious.woff') format('woff');
 }
 
 @font-face {
   font-family: "CMU Serif";
+  unicode-range: U+000-5FF;
   src: url("../public/fonts/cmunbi.ttf") format("truetype");
   font-weight: bold;
   font-style: italic;
