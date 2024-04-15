@@ -4,7 +4,7 @@ const ContactSection = () => {
   return (
     <section id="contactSection" className='max-w-7xl m-auto px-5 pt-8 md:pb-20 pb-8'>
       <div className='md:px-8 px-5'>
-        <h2 className='font-sans text-left md:text-8xl text-7xl md:pb-8 mb-6'>Contacto wedding planner</h2>
+        <h2 className='font-sans text-left md:text-8xl text-6xl md:pb-8 mb-6'>Contacto wedding planner</h2>
 
         <p className='text-left'>Para cualquier sorpresa que quieras organizarnos, no dudes en ponerte en contacto con la organizadora de la boda, que está al cargo del guión y tiempos de la boda. </p>
 

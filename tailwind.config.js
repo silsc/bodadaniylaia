@@ -9,7 +9,7 @@ module.exports = {
       'orange': '#E68B7B',
       'white': '#ffffff',
       'black': '#000000',
-      'gray': 'C1C1C1',
+      'gray': '#6F6F6F',
     },
     fontFamily: {
       serif: ['CMU Serif', 'serif'],

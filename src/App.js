@@ -20,7 +20,7 @@ function App() {
         setTimeout(() => {
           // remove from DOM
           ele.remove();
-        }, 2000);
+        }, 4000);
       }
     })
   }, [])
