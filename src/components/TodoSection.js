@@ -8,8 +8,8 @@ import infoTgn5 from '../assets/images/infotgn-5.jpg';
 const TodoSection = () => {
   return (
     <section id="toDoSection" className='max-w-7xl m-auto pb-8 px-5'>
-      <div className='md:px-8 px-5'>
-        <h2 className='font-sans md:text-8xl text-7xl mb-5'>Información Adicional</h2>
+      <div className='md:px-8 px-0'>
+        <h2 className='font-sans md:text-8xl text-6xl mb-5'>Información Adicional</h2>
         <div className='mb-8'>
           <h3 className='font-bold mb-3 text-orange text-lg	'>PARKING</h3>
           <p className='text-justify'>Justo enfrente de la Casa Joan Miret, en la Rambla Nova s/n, hay un parking (Aparcament del Balcó del Mediterrani), el cual se puede reservar a un precio de 14€ por día (18€/día sin reserva) llamando al 96 128 06 35.<br></br><br></br>

@@ -6,7 +6,7 @@ const StorySection = () => {
   return (
     <section id="storySection" className='max-w-7xl m-auto px-5'>
       <div className='md:px-8'>
-        <h2 className='text-right font-sans md:text-8xl text-7xl pt-8 pb-3'>Nuestra historia</h2>
+        <h2 className='text-right font-sans md:text-8xl text-6xl pt-8 pb-3'>Nuestra historia</h2>
         <div className='pb-8'>
           <div className='flex-col'>
 

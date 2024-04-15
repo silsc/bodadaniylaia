@@ -34,26 +34,26 @@ const DateSection = () => {
           <h2 className='font-sans absolute top-16 left-8 text-5xl'>fecha</h2>
         </div>
         <div className='md:pr-0 pr-2'>
-          <div className='timer flex basis-1/2 italic mt-5 mb-5 md:text-base text-xs'>
+          <div className='timer flex basis-1/2 italic mt-5 mb-5 '>
             <div className='flex mr-2'>
-              <p className='mr-1'>{days}</p>
-              <p>días</p>
+              <p className='md:text-base text-xs mr-1'>{days}</p>
+              <p className='md:text-base text-xs'>días</p>
             </div>
             <div className='flex mr-2'>
-              <p className='mr-1'>{hours}</p>
-              <p>horas</p>
+              <p className='md:text-base text-xs mr-1'>{hours}</p>
+              <p className='md:text-base text-xs'>horas</p>
             </div>
             <div className='flex mr-2'>
-              <p className='mr-1'>{minutes}</p>
-              <p>min</p>
+              <p className='md:text-base text-xs mr-1'>{minutes}</p>
+              <p className='md:text-base text-xs'>min</p>
             </div>
             <div className='flex'>
-              <p className='mr-1'>{seconds}</p>
-              <p>seg</p>
+              <p className='md:text-base text-xs mr-1'>{seconds}</p>
+              <p className='md:text-base text-xs'>seg</p>
             </div>
 
           </div>
-          <p className='text-right text-lg'>14 septiembre 2024</p>
+          <p className='text-right md:text-lg text-base'>14 septiembre 2024</p>
           <p className='text-right text-sm'> Hora de inicio 18:00h</p>
 
         </div>

@@ -4,7 +4,7 @@ const PhotosSection = () => {
   return (
     <section id="photosSection" className='max-w-7xl m-auto md:px-8 px-5'>
       <div className='border-y-[1px] md:px-8 pt-8 md:pb-20 pb-8'>
-        <h2 className='font-sans text-right md:text-8xl text-7xl md:pb-8 pb-5'>Álbum de fotos</h2>
+        <h2 className='font-sans text-right md:text-8xl text-6xl md:pb-8 pb-5'>Álbum de fotos</h2>
         <div className='flex justify-center content-center md:ml-3 md:mr-10 md:px-10 px-3'>
           <p className='md:mr-7 mr-5 self-center'>Ayúdanos a crear nuestro albúm de fotos.<br></br> Sube las fotos que has sacado durante la boda haciéndo click en la carpeta.</p>
           <a target='_blank' className="md:basis-auto basis-2/3 cursor-pointer self-center" rel='noopener noreferrer' href="https://mega.nz/filerequest/e7TxBsKJBJM">

@@ -1,6 +1,13 @@
-import React from 'react';
+import {useState} from 'react';
 
 const AttendanceSection = () => {
+  const [copySuccess, setCopySuccess] = useState('');
+
+  function copyToClipboard(e) {
+    navigator.clipboard.writeText('ES6800730100540199528720');
+    setCopySuccess('¡Copiado!');
+  };
+
   return (
     <section className='max-w-7xl m-auto px-5 py-8'>
       <div className='border-y-[1px] mt-5 pt-8 pb-12 h-52'>
@@ -13,7 +20,10 @@ const AttendanceSection = () => {
       <div className='mt-3 mb-5 grid justify-center content-center'>
         <h3 className='text-center mb-2'>Recordad: lo importante es que vengáis con ilusión, alegría y ganas de pasarlo bien. <br></br>
         Pero si queréis hacernos un regalo, ¡sumad kilómetros a nuestra luna de miel!</h3>
-        <p className='text-center italic text-lg'>ES6800730100540199528720</p>
+        <div className='m-auto flex flex-col'>
+          <button className='text-center italic text-lg border-none' onClick={copyToClipboard}>ES6800730100540199528720</button> 
+          <p className='text-gray text-center font-bold'>{copySuccess}</p>
+        </div>
         <p className='text-center mb-5 text-orange font-bold'>Daniel Salat Casado & Laia Solé Herrera</p>
         <h3 className='text-center'>Rellena el formulario abajo</h3>
         <svg className="justify-self-center	" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">

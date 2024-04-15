@@ -7,7 +7,7 @@ const LocationSection = () => {
       <div className='border-y-[1px] py-8 '>
         <div className='md:px-8'>
           
-          <h2 className='font-sans md:text-8xl text-7xl pb-3'>Ubicación</h2>
+          <h2 className='font-sans md:text-8xl text-6xl pb-3'>Ubicación</h2>
           <div className='md:flex block justify-between'>
             <div className='basis-6/12 md:pr-5'>
               <div className=''>
