@@ -89,17 +89,17 @@ const TodoSection = () => {
           Para aquellos que prefiráis un hotel para vuestro alojamiento, el  <strong>H10 Imperial Tarraco</strong> (Rambla Vella, 2) es un opción lujosa con excelentes vistas al Mediterraneo y también muy cerca del lugar de la celebración.
           <br></br><br></br>
           Otras alternativas de alojamiento que consideramos que pueden ser buenas opciones son:</p>
-          <div className='flex content-center'>
-            <svg className="self-center mr-2" width="22" height="15" viewBox="0 0 38 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div className='flex  content-center'>
+            <svg className=" self-center  mr-2" width="22" height="15" viewBox="0 0 38 26" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M10.6666 13.6667C13.4333 13.6667 15.6666 11.4333 15.6666 8.66667C15.6666 5.9 13.4333 3.66667 10.6666 3.66667C7.89996 3.66667 5.66663 5.9 5.66663 8.66667C5.66663 11.4333 7.89996 13.6667 10.6666 13.6667ZM30.6666 3.66667H20.6666C18.8333 3.66667 17.3333 5.16667 17.3333 7V15.3333H3.99996V2C3.99996 1.08334 3.24996 0.333336 2.33329 0.333336C1.41663 0.333336 0.666626 1.08334 0.666626 2V23.6667C0.666626 24.5833 1.41663 25.3333 2.33329 25.3333C3.24996 25.3333 3.99996 24.5833 3.99996 23.6667V20.3333H34V23.6667C34 24.5833 34.75 25.3333 35.6666 25.3333C36.5833 25.3333 37.3333 24.5833 37.3333 23.6667V10.3333C37.3333 6.65 34.35 3.66667 30.6666 3.66667Z" fill="#E68B7B"/>
             </svg>
-            <p className='self-center'>Hotel Lauria (Rambla Nova, 20)</p>
+            <p className='self-center '>Hotel Lauria (Rambla Nova, 20)</p>
           </div>
           <div className='flex content-center'>
-            <svg className="self-center mr-2" width="22" height="15" viewBox="0 0 38 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className="w-min self-center mr-2" style={{minWidth: 22}}width="22" height="15" viewBox="0 0 38 26" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M10.6666 13.6667C13.4333 13.6667 15.6666 11.4333 15.6666 8.66667C15.6666 5.9 13.4333 3.66667 10.6666 3.66667C7.89996 3.66667 5.66663 5.9 5.66663 8.66667C5.66663 11.4333 7.89996 13.6667 10.6666 13.6667ZM30.6666 3.66667H20.6666C18.8333 3.66667 17.3333 5.16667 17.3333 7V15.3333H3.99996V2C3.99996 1.08334 3.24996 0.333336 2.33329 0.333336C1.41663 0.333336 0.666626 1.08334 0.666626 2V23.6667C0.666626 24.5833 1.41663 25.3333 2.33329 25.3333C3.24996 25.3333 3.99996 24.5833 3.99996 23.6667V20.3333H34V23.6667C34 24.5833 34.75 25.3333 35.6666 25.3333C36.5833 25.3333 37.3333 24.5833 37.3333 23.6667V10.3333C37.3333 6.65 34.35 3.66667 30.6666 3.66667Z" fill="#E68B7B"/>
             </svg>
-            <p className='self-center'>B&B Hotel Tarragona Centro Urbis (Pl. de Corsini, 10)</p>
+            <p className='self-center '>B&B Hotel Tarragona Centro Urbis (Pl. de Corsini, 10)</p>
           </div>
           <div className='flex content-center'>
             <svg className="self-center mr-2" width="22" height="15" viewBox="0 0 38 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -126,7 +126,7 @@ const TodoSection = () => {
 
             <div className='relative md:p-10 p-6 bg-cover bg-no-repeat bg-center bg-[image:var(--image-url)]' style={{'--image-url': `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(${infoTgn3})`}}>
               <h4 className='font-serif italic text-white text-lg'>Viure la Part Alta</h4>
-              <p className='text-white'>Visitar el casco antiguo: vermutear en una de sus plazas (Font, Rei, Forum), visitar la Catedral, bajar el Carrer Major, etc</p>
+              <p className='text-white'>Visitar el casco antiguo: vermutear en una de sus plazas (Font, Rei, Fòrum), visitar la Catedral, bajar el Carrer Major, etc</p>
             </div>
 
             <div className='relative md:p-10 p-6 bg-cover bg-no-repeat bg-center bg-[image:var(--image-url)]' style={{'--image-url': `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(${infoTgn4})`}}>
