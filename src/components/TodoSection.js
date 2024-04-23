@@ -1,11 +1,13 @@
 import React from 'react';
+
 import infoTgn1 from '../assets/images/infotgn-1.jpg';
 import infoTgn2 from '../assets/images/infotgn-2.jpg';
 import infoTgn3 from '../assets/images/infotgn-3.jpg';
 import infoTgn4 from '../assets/images/infotgn-4.jpg';
 import infoTgn5 from '../assets/images/infotgn-5.jpg';
 
-const TodoSection = () => {
+const TodoSection =
+    () => {
   return (
     <section id="toDoSection" className='max-w-7xl m-auto pb-8 px-5'>
       <div className='md:px-8 px-0'>
@@ -114,7 +116,10 @@ const TodoSection = () => {
           <p className='mb-3 '>Algunas ideas para hacer en Tarragona</p>
           <div className='grid md:grid-cols-2 grid-cols-1 gap-4 '>
 
-            <div className='relative md:p-10 p-6 bg-cover bg-no-repeat bg-center bg-[image:var(--image-url)]' style={{'--image-url': `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(${infoTgn1})`}}>
+            <div className='relative md:p-10 p-6 bg-cover bg-no-repeat bg-center bg-[image:var(--image-url)]' style={{
+    '--image-url':
+        `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(${
+            infoTgn1})`}}>
               <h4 className='font-serif italic text-white text-lg'>Tocar Ferro</h4>
               <p className='text-white font-bold'>El paseo más típico de Tarragona. Cerca del lugar de la ceremonia en la Rambla, no podéis perderos las espectaculares vistas desde el Balcón del Mediterráneo y aprovechar para atraer a la suerte tocando la barandilla de hierro.</p>
             </div>
@@ -129,7 +134,10 @@ const TodoSection = () => {
               <p className='text-white'>Visitar el casco antiguo: vermutear en una de sus plazas (Font, Rei, Fòrum), visitar la Catedral, bajar el Carrer Major, etc</p>
             </div>
 
-            <div className='relative md:p-10 p-6 bg-cover bg-no-repeat bg-center bg-[image:var(--image-url)]' style={{'--image-url': `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(${infoTgn4})`}}>
+            <div className='relative md:p-10 p-6 bg-cover bg-no-repeat bg-center bg-[image:var(--image-url)]' style={{
+    '--image-url':
+        `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(${
+            infoTgn4})`}}>
               <h4 className='font-serif italic text-white text-lg'>Tarraco Romana</h4>
               <p className='text-white'>Capital de Hispania, en Tarragona hay muchos monumentos que la historia nos ha dejado. El circo romano, el anfiteatro y las murallas son nuestros preferidos.</p>
             </div>
@@ -144,6 +152,6 @@ const TodoSection = () => {
       </div>
     </section>
   );
-}
+    }
 
 export default TodoSection;
