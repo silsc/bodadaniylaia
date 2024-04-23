@@ -86,7 +86,7 @@ const TodoSection = () => {
           <h3 className='font-bold mb-3 text-orange text-lg'>ALOJAMIENTO</h3>
           <p className='text-justify'>Para facilitar la asistencia, como muchos venís de fuera, hemos hecho una lista de alojamientos recomendados para diferentes gustos y bolsillos.<br></br><br></br>
           En nuestra opinión, la mejor opción calidad-precio y ubicación es <strong>Andreas Apartments</strong> (Rambla Nova, 71) que dispone de apartamentos con capacidad para 2, 3 y 4 personas a partir de 80€/noche. Si crees que es una buena opción para tu estancia, contacta con alguno de nosotros dos lo antes posible, ya que estamos organizando una reserva de grupo.<br></br><br></br>
-          Para aquellos que prefiráis un hotel para vuestro alojamiento, el  <strong>H10 Imperial Tarraco</strong> (Rambla Vella, 2) es un opción lujosa con excelentes vistas al Mediterraneo y también muy cerca del lugar de la celebración.
+          Para aquellos que prefiráis un hotel para vuestro alojamiento, el  <strong>H10 Imperial Tarraco</strong> (Rambla Vella, 2) es un opción lujosa con excelentes vistas al Mediterráneo y también muy cerca del lugar de la celebración.
           <br></br><br></br>
           Otras alternativas de alojamiento que consideramos que pueden ser buenas opciones son:</p>
           <div className='flex  content-center'>
