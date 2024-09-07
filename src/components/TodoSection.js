@@ -121,7 +121,7 @@ const TodoSection = () => {
             
             <div className='relative md:p-10 p-6 bg-cover bg-no-repeat bg-center bg-[image:var(--image-url)]' style={{'--image-url': `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(${infoTgn2})`}}>
               <h4 className='font-serif italic text-white text-lg'>Santa Tecla gloriosa, mare dels tarragonins</h4>
-              <p className='text-white'>La boda será el primer finde de las fiestas patronales y la ciudad estará animada. Aprovechad para ver Castells, probar la Mamadeta y bailar el Amparito Roca.<br></br>En cuanto esté disponible, subiremos el programa de las fiestas</p>
+              <p className='text-white'>La boda será el primer finde de las fiestas patronales y la ciudad estará animada. Aprovechad para ver Castells, probar la Mamadeta y bailar el Amparito Roca.<br></br><a className='font-weight: 700;' rel="noopener noreferrer" href="https://www.tarragonaturisme.cat/ca/esdeveniments/santa-tecla" target="_blank">PUEDES VER EL PROGRAMA AQUI</a></p>
             </div>
 
             <div className='relative md:p-10 p-6 bg-cover bg-no-repeat bg-center bg-[image:var(--image-url)]' style={{'--image-url': `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(${infoTgn3})`}}>
